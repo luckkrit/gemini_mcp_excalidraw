@@ -1,12 +1,16 @@
 A simple example that uses Gemini to generate Excalidraw diagrams by entering a text prompt.
 
-The `gemini_to_excalidraw.py` uses Gemini to generate Excalidraw diagrams by entering a text prompt and send to Excalidraw MCP Server to generate excalidraw diagram 
-and export to json or image files.
+The `gemini_to_excalidraw.py` uses Gemini to generate Excalidraw diagrams by
+entering a text prompt and sends it to the Excalidraw MCP Server to generate
+an Excalidraw diagram and export to JSON or image files.
 
-The `gemini_to_excalidraw_no_mcp.py` uses Gemini to generate Excalidraw diagrams directly by entering a text prompt without Excalidraw MCP Server.
+The `gemini_to_excalidraw_no_mcp.py` uses Gemini to generate Excalidraw
+diagrams directly by entering a text prompt without the Excalidraw MCP Server.
 
-The important things is rule that is pass to gemini for specific diagram type.
+The important thing is the rules that are passed to Gemini for each specific
+diagram type.
 
+For example,
 
 1. Universal Rule
 
