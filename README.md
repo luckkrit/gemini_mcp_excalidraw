@@ -161,7 +161,7 @@ For other rules please look at `excalidraw_rules.py`
 pip install -r requirements.txt
 ```
 
-## Run
+## Run (Powershell)
 ```bash
 python gemini_to_excalidraw.py --prompt "Draw a 3-tier web architecture" --output ./arch.excalidraw
 ```
